@@ -39,6 +39,38 @@ header {
     object-fit: cover;
 }
 
+.project-img,
+.blog-img {
+    overflow: hidden;
+}
+
+.project-img img,
+.blog-img img,
+.profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.project-img img,
+.blog-img img {
+    transition: transform 0.35s ease;
+}
+
+.project-card:hover img,
+.blog-card:hover img {
+    transform: scale(1.05);
+}
+
+.project-img {
+    height: 220px;
+}
+
+.blog-img {
+    height: 180px;
+}
+
 .logo {
     display: flex;
     align-items: center;
