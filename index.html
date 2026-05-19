@@ -9,13 +9,14 @@
 </head>
 
 <body>
-    <div class="wrapper">
-        <!-- semantic header with nav -->
+    <main class="wrapper">
+
         <header>
-            <div class="logo">
+            <section class="logo">
                 <span class="logo-circle">EN</span>
                 <span class="logo-text">Nthani</span>
-            </div>
+            </section>
+
             <nav aria-label="Main navigation">
                 <ul>
                     <li><a href="#home">Home</a></li>
@@ -27,184 +28,268 @@
             </nav>
         </header>
 
-        <main>
-            <!-- hero semantic -->
-            <section id="home" class="hero">
-                <figure class="hero-image" aria-label="Profile portrait">
-                    <img src="/EnoughNthaniCV/img.png" class="profile-img" />
-                </figure>
-                <div class="hero-content">
-                    <h1>Enough Tonny Nthani</h1>
-                    <p class="hero-tagline">Computer Science Graduate | Junior Java Developer</p>
-                    <p>Tshwane, South Africa · Passionate about clean code, automation, and modern web solutions.</p>
-                    <div class="skills-badge">
-                        <span class="badge">Java</span>
-                        <span class="badge">React</span>
-                        <span class="badge">Node.js</span>
-                        <span class="badge">SQL</span>
-                        <span class="badge">Python</span>
-                        <span class="badge">HTML/CSS</span>
-                    </div>
-                    <div class="contact-links">
-                        <a href="mailto:enoughnthani@gmail.com">📧 enoughnthani@gmail.com</a>
-                        <a href="tel:+27637489367">📞 +27 63 748 9367</a>
-                        <a href="#">🔗 GitHub</a>
-                        <a href="#">💼 LinkedIn</a>
-                    </div>
-                </div>
-            </section>
+        <section id="home" class="hero">
+            <figure class="hero-image" aria-label="Profile portrait">
+                <img src="/EnoughNthaniCV/img.png" class="profile-img" />
+            </figure>
 
-            <!-- about section semantic -->
-            <section id="about" class="about">
-                <h2>About Me</h2>
-                <div class="about-grid">
-                    <div>
-                        <p><strong>Computer Science diploma holder</strong> with solid Java knowledge, experience
-                            building web apps with React and backend services. Passionate about clean code, automation,
-                            and learning new technologies. I build tools that make everyday life simpler and more
-                            enjoyable.</p>
-                        <br>
-                        <ul class="info-list">
-                            <li>🎓 Tshwane University of Technology (2024)</li>
-                            <li>🏫 Ncakini Secondary School (2019)</li>
-                            <li>📍 Based in Tshwane, South Africa</li>
-                            <li>🧑‍💻 Mentoring & hardware support</li>
-                        </ul>
-                    </div>
-                    <div class="education-detail">
-                        <h3 style="font-size: 1.2rem; margin-bottom: 0.8rem;">Education & credentials</h3>
-                        <div class="school-item">
-                            <span><strong>Ncakini Secondary School</strong></span>
-                            <span>2019</span>
-                        </div>
-                        <div class="school-item">
-                            <span><strong>Tshwane University of Technology</strong> · Diploma in CS</span>
-                            <span>2024</span>
-                        </div>
-                        <hr>
-                        <p><strong>Core skills:</strong> Java, React, JavaScript, SQL, Git, Responsive design, Semantic
-                            HTML, CSS Grid & Flexbox, REST APIs</p>
-                    </div>
-                </div>
-            </section>
+            <article class="hero-content">
+                <h1>Enough Tonny Nthani</h1>
+                <p class="hero-tagline">Computer Science Graduate | Junior Java Developer</p>
+                <p>Tshwane, South Africa · Passionate about clean code, automation, and modern web solutions.</p>
 
-            <!-- projects section semantic grid -->
-            <section id="projects" class="projects">
-                <h2>Featured Projects</h2>
-                <div class="projects-grid">
-                    <article class="project-card">
-                        <div class="project-img">📋 SAPS Alert & Certify</div>
-                        <div class="project-content">
-                            <h3>SAPS Alert & Certify</h3>
-                            <p>Web app for online document certifying and crime reporting. React frontend, Node/Express
-                                API, PostgreSQL.</p>
-                            <div class="tech-stack">
-                                <span class="tech">React</span><span class="tech">Node</span><span
-                                    class="tech">Postgres</span>
-                            </div>
-                        </div>
-                    </article>
-                    <article class="project-card">
-                        <div class="project-img">💄 Danisile's Glam & Beauty</div>
-                        <div class="project-content">
-                            <h3>Danisile's Glam & Beauty</h3>
-                            <p>Small e-commerce site built with React Bootstrap and Flask backend to manage products.
-                            </p>
-                            <div class="tech-stack">
-                                <span class="tech">React</span><span class="tech">Flask</span><span
-                                    class="tech">Bootstrap</span>
-                            </div>
-                        </div>
-                    </article>
-                    <article class="project-card">
-                        <div class="project-img">📅 Event Management System</div>
-                        <div class="project-content">
-                            <h3>Event Management System</h3>
-                            <p>System for storing meetings, notes and activities. Java backend, React frontend, MySQL.
-                            </p>
-                            <div class="tech-stack">
-                                <span class="tech">Java</span><span class="tech">React</span><span
-                                    class="tech">MySQL</span>
-                            </div>
-                        </div>
-                    </article>
-                    <article class="project-card">
-                        <div class="project-img">🎓 CardSwiftPro</div>
-                        <div class="project-content">
-                            <h3>CardSwiftPro</h3>
-                            <p>Web-based platform for creating student cards online, eliminating queues.</p>
-                            <div class="tech-stack">
-                                <span class="tech">Java</span><span class="tech">JavaScript</span><span
-                                    class="tech">MySQL</span>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-            </section>
+                <section class="skills-badge">
+                    <span class="badge">Java</span>
+                    <span class="badge">React</span>
+                    <span class="badge">Node.js</span>
+                    <span class="badge">SQL</span>
+                    <span class="badge">Python</span>
+                    <span class="badge">HTML/CSS</span>
+                </section>
 
-            <!-- blog section : semantic articles -->
-            <section id="blog" class="blog">
-                <h2>Blog & Insights</h2>
-                <div class="blog-grid">
-                    <article class="blog-card">
-                        <div class="blog-img"></div>
-                        <div class="blog-content">
-                            <h3>Why I Love Building Web Apps</h3>
-                            <p><time datetime="2025-09-28">Sep 28, 2025</time></p>
-                            <p>Thoughts on turning complex ideas into smooth, user-friendly interfaces with React and
-                                modern CSS.</p>
-                        </div>
-                    </article>
-                    <article class="blog-card">
-                        <div class="blog-img"></div>
-                        <div class="blog-content">
-                            <h3>Laptop Repair Tips You Should Know</h3>
-                            <p><time datetime="2025-09-15">Sep 15, 2025</time></p>
-                            <p>Simple steps to keep your laptop running longer and avoid common hardware problems.</p>
-                        </div>
-                    </article>
-                    <article class="blog-card">
-                        <div class="blog-img"></div>
-                        <div class="blog-content">
-                            <h3>Helping Students Master Programming</h3>
-                            <p><time datetime="2025-08-30">Aug 30, 2025</time></p>
-                            <p>How mentoring others has improved my own coding skills and kept me learning new concepts.
-                            </p>
-                        </div>
-                    </article>
-                </div>
-            </section>
+                <address class="contact-links">
+                    <a href="mailto:enoughnthani@gmail.com">📧 enoughnthani@gmail.com</a>
+                    <a href="tel:+27637489367">📞 +27 63 748 9367</a>
+                    <a href="#">🔗 GitHub</a>
+                    <a href="#">💼 LinkedIn</a>
+                </address>
+            </article>
+        </section>
 
-            <!-- contact section : semantic form -->
-            <section id="contact" class="contact-section">
-                <h2>Let's Connect</h2>
-                <div class="contact-row">
-                    <div class="contact-info">
-                        <h3 style="margin-bottom: 1rem;">Contact Information</h3>
-                        <p>Do you have a project in mind? Let’s talk!</p>
-                        <ul style="list-style: none; margin-top: 1.5rem;">
-                            <li>📞 +27 63 748 9367</li>
-                            <li>✉️ enoughnthani@gmail.com</li>
-                            <li>🌍 Tshwane, South Africa</li>
-                        </ul>
-                    </div>
-                    <div class="contact-form">
-                        <form action="#" method="post">
-                            <label for="name">Full name</label>
-                            <input type="text" id="name" name="name" required>
-                            <label for="email">Email address</label>
-                            <input type="email" id="email" name="email" required>
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" rows="4" required></textarea>
-                            <button type="submit">Send Message →</button>
-                        </form>
-                    </div>
-                </div>
+        <section id="about" class="about">
+            <h2>About Me</h2>
+
+            <section class="about-grid">
+
+                <article>
+                    <p>
+                        <strong>Computer Science diploma holder</strong> with solid Java knowledge,
+                        experience building web apps with React and backend services.
+                        Passionate about clean code, automation, and learning new technologies.
+                        I build tools that make everyday life simpler and more enjoyable.
+                    </p>
+
+                    <br>
+
+                    <ul class="info-list">
+                        <li>🎓 Tshwane University of Technology (2024)</li>
+                        <li>🏫 Ncakini Secondary School (2019)</li>
+                        <li>📍 Based in Tshwane, South Africa</li>
+                        <li>🧑‍💻 Mentoring & hardware support</li>
+                    </ul>
+                </article>
+
+                <aside class="education-detail">
+                    <h3 style="font-size: 1.2rem; margin-bottom: 0.8rem;">
+                        Education & credentials
+                    </h3>
+
+                    <section class="school-item">
+                        <span><strong>Ncakini Secondary School</strong></span>
+                        <span>2019</span>
+                    </section>
+
+                    <section class="school-item">
+                        <span>
+                            <strong>Tshwane University of Technology</strong> · Diploma in CS
+                        </span>
+                        <span>2024</span>
+                    </section>
+
+                    <hr>
+
+                    <p>
+                        <strong>Core skills:</strong>
+                        Java, React, JavaScript, SQL, Git,
+                        Responsive design, Semantic HTML,
+                        CSS Grid & Flexbox, REST APIs
+                    </p>
+                </aside>
+
             </section>
-        </main>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Featured Projects</h2>
+
+            <section class="projects-grid">
+
+                <article class="project-card">
+                    <figure class="project-img">📋 SAPS Alert & Certify</figure>
+
+                    <section class="project-content">
+                        <h3>SAPS Alert & Certify</h3>
+
+                        <p>
+                            Web app for online document certifying and crime reporting.
+                            React frontend, Node/Express API, PostgreSQL.
+                        </p>
+
+                        <section class="tech-stack">
+                            <span class="tech">React</span>
+                            <span class="tech">Node</span>
+                            <span class="tech">Postgres</span>
+                        </section>
+                    </section>
+                </article>
+
+                <article class="project-card">
+                    <figure class="project-img">💄 Danisile's Glam & Beauty</figure>
+
+                    <section class="project-content">
+                        <h3>Danisile's Glam & Beauty</h3>
+
+                        <p>
+                            Small e-commerce site built with React Bootstrap
+                            and Flask backend to manage products.
+                        </p>
+
+                        <section class="tech-stack">
+                            <span class="tech">React</span>
+                            <span class="tech">Flask</span>
+                            <span class="tech">Bootstrap</span>
+                        </section>
+                    </section>
+                </article>
+
+                <article class="project-card">
+                    <figure class="project-img">📅 Event Management System</figure>
+
+                    <section class="project-content">
+                        <h3>Event Management System</h3>
+
+                        <p>
+                            System for storing meetings, notes and activities.
+                            Java backend, React frontend, MySQL.
+                        </p>
+
+                        <section class="tech-stack">
+                            <span class="tech">Java</span>
+                            <span class="tech">React</span>
+                            <span class="tech">MySQL</span>
+                        </section>
+                    </section>
+                </article>
+
+                <article class="project-card">
+                    <figure class="project-img">🎓 CardSwiftPro</figure>
+
+                    <section class="project-content">
+                        <h3>CardSwiftPro</h3>
+
+                        <p>
+                            Web-based platform for creating student cards online,
+                            eliminating queues.
+                        </p>
+
+                        <section class="tech-stack">
+                            <span class="tech">Java</span>
+                            <span class="tech">JavaScript</span>
+                            <span class="tech">MySQL</span>
+                        </section>
+                    </section>
+                </article>
+
+            </section>
+        </section>
+
+        <section id="blog" class="blog">
+            <h2>Blog & Insights</h2>
+
+            <section class="blog-grid">
+
+                <article class="blog-card">
+                    <figure class="blog-img"></figure>
+
+                    <section class="blog-content">
+                        <h3>Why I Love Building Web Apps</h3>
+
+                        <p><time datetime="2025-09-28">Sep 28, 2025</time></p>
+
+                        <p>
+                            Thoughts on turning complex ideas into smooth,
+                            user-friendly interfaces with React and modern CSS.
+                        </p>
+                    </section>
+                </article>
+
+                <article class="blog-card">
+                    <figure class="blog-img"></figure>
+
+                    <section class="blog-content">
+                        <h3>Laptop Repair Tips You Should Know</h3>
+
+                        <p><time datetime="2025-09-15">Sep 15, 2025</time></p>
+
+                        <p>
+                            Simple steps to keep your laptop running longer
+                            and avoid common hardware problems.
+                        </p>
+                    </section>
+                </article>
+
+                <article class="blog-card">
+                    <figure class="blog-img"></figure>
+
+                    <section class="blog-content">
+                        <h3>Helping Students Master Programming</h3>
+
+                        <p><time datetime="2025-08-30">Aug 30, 2025</time></p>
+
+                        <p>
+                            How mentoring others has improved my own coding skills
+                            and kept me learning new concepts.
+                        </p>
+                    </section>
+                </article>
+
+            </section>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Let's Connect</h2>
+
+            <section class="contact-row">
+
+                <aside class="contact-info">
+                    <h3 style="margin-bottom: 1rem;">Contact Information</h3>
+
+                    <p>Do you have a project in mind? Let’s talk!</p>
+
+                    <ul style="list-style: none; margin-top: 1.5rem;">
+                        <li>📞 +27 63 748 9367</li>
+                        <li>✉️ enoughnthani@gmail.com</li>
+                        <li>🌍 Tshwane, South Africa</li>
+                    </ul>
+                </aside>
+
+                <section class="contact-form">
+                    <form action="#" method="post">
+
+                        <label for="name">Full name</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email address</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+
+                        <button type="submit">Send Message →</button>
+
+                    </form>
+                </section>
+
+            </section>
+        </section>
 
         <footer>
-            <p>© 2025 Enough Tonny Nthani — Built with semantic HTML & modern CSS (Grid, Flex, Variables)</p>
+            <p>
+                © 2025 Enough Tonny Nthani —
+                Built with semantic HTML & modern CSS
+                (Grid, Flex, Variables)
+            </p>
+
             <p style="margin-top: 0.5rem;">
                 <a href="mailto:enoughnthani@gmail.com">enoughnthani@gmail.com</a> |
                 <a href="#">GitHub</a> |
@@ -213,7 +298,8 @@
         </footer>
 
         <a href="#" class="scroll-top" aria-label="Scroll to top">↑</a>
-    </div>
+
+    </main>
 </body>
 
 </html>
