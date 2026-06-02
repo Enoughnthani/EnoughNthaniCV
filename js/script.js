@@ -10,8 +10,8 @@ async function getData() {
             let lon = position.coords.longitude;
 
             document.getElementById("location").innerHTML =
-                "Latitude: " + lat +
-                "<br>Longitude: " + lon;
+                "📍 Latitude: " + lat +
+                "<br>📍 Longitude: " + lon;
 
             await getWeather(lat, lon);
 
@@ -48,16 +48,18 @@ async function getWeather(lat, lon) {
 
         let desc = data.weather[0].description;
 
+
+
         document.getElementById("weather").innerHTML =
-            "<strong>" + city + ", " + country + "</strong><br><br>" +
+            "<strong>🏙️ " + city + ", " + country + "</strong><br><br>" +
 
-            "Temperature: " + temp + " °C<br>" +
-            "Feels like: " + feelsLike + " °C<br>" +
-            "Weather: " + desc + "<br><br>" +
+            "🌡️ Temperature: " + temp + " °C<br>" +
+            "🥵 Feels like: " + feelsLike + " °C<br>" +
+            "☁️ Weather: " + desc + "<br><br>" +
 
-            "Humidity: " + humidity + "%<br>" +
-            "Wind speed: " + wind + " m/s<br>" +
-            "Pressure: " + pressure + " hPa";
+            "💧 Humidity: " + humidity + "%<br>" +
+            "🌬️ Wind speed: " + wind + " m/s<br>" +
+            "⚖️ Pressure: " + pressure + " hPa";
 
     } catch (error) {
 
